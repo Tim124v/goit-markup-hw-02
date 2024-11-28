@@ -18,11 +18,12 @@ button {
     cursor: pointer;
 }
 .header-logo {
-    display: flex;
-align-items: center;
-justify-content: flex-start;
-flex-direction: row;
-gap: 0px;
+ font-family: "Raleway", sans-serif;
+ font-weight: 700;
+ font-size: 18px;
+ line-height: 1.16667;
+ letter-spacing: 0.03em;
+ color: #2e2f42;
 }
 
 .nav-web {
@@ -52,7 +53,7 @@ gap: 0px;
     color: #404BBF;
 }
 
-.page-contacts {
+.contacts {
     font-style: normal;
 }
 
@@ -77,8 +78,6 @@ gap: 0px;
 
 .section-1 {
     background-color: #2E2F42;
-    width: 1440px;
-    height: 600px;
 }
 
 .section-title {
@@ -87,20 +86,11 @@ gap: 0px;
    font-size: 56px;
    line-height: 1.07;
    letter-spacing: 0.02em;
-   text-align:center;
    color: #fff;
 }
 
 .button-order {
- display: flex;
- align-items: flex-start;
  justify-content: flex-start;
- flex-direction: row;
- gap: 10px;
- border-radius: 4px;
- padding: 16px 32px;
- width: 169px;
- height: 56px;
  background: #4d5ae5;
 }
 .button-order:focus {
@@ -165,7 +155,6 @@ gap: 0px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    text-transform: capitalize;
 }
 
 .portfolio-title {
@@ -190,7 +179,6 @@ gap: 0px;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #4D5AE5;
     line-height: 1.17
 }
