@@ -155,7 +155,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    text-align: center
+    text-transform: capitalize
 }
 
 .text-portfolio {
@@ -164,7 +164,7 @@ button {
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    text-align: center
+    text-transform: capitalize
 }
 
 .portfolio-title {
