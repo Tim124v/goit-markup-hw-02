@@ -16,14 +16,22 @@ ul,ol {
 
 button {
     cursor: pointer;
+    background: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
 }
 .header-logo {
  font-family: "Raleway", sans-serif;
  font-weight: 700;
  font-size: 18px;
- line-height: 1.16;
+ line-height: 1.17;
  letter-spacing: 0.03em;
- color: #2e2f42;
+ text-transform: uppercase;
+ color: #4d5ae5;
 }
 
 .nav-web {
@@ -42,15 +50,15 @@ button {
 }
 
 .nav-link:focus {
-    color: #404BBF;
+    color: #404bbf;
 }
 
 .nav-link:hover {
-    color: #404BBF;
+    color: #404bbf;
 }
 
 .nav-link:active {
-    color: #404BBF;
+    color: #404bbf;
 }
 
 .contacts {
@@ -89,10 +97,7 @@ button {
    color: #fff;
 }
 
-.button-order {
- justify-content: flex-start;
- background: #4d5ae5;
-}
+
 .button-order:focus {
     background-color: #4d5ae5
 }
@@ -147,6 +152,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-transform: capitalize
 }
 
 .text-portfolio {
@@ -163,6 +169,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center
 }
 
 .portfolio-category {
@@ -197,4 +204,5 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    text-transform: uppercase
 }
