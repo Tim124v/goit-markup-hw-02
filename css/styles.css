@@ -84,7 +84,7 @@ button {
     color: #404BBF;
 }
 
-.section-1 {
+.section-hero {
     background-color: #2e2f42;
 }
 
@@ -104,7 +104,7 @@ button {
 }
 
 .button-order:hover {
-    background-color:  #404BBF;
+    background-color:  #4d5ae5;
 }
 
 .feature-title {
@@ -140,7 +140,7 @@ button {
  text-transform: capitalize
 }
 
-.section-title-3 {
+.section-title-team {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
