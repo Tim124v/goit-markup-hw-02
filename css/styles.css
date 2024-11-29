@@ -23,6 +23,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    
 }
 .header-logo {
  font-family: "Raleway", sans-serif;
@@ -84,7 +85,7 @@ button {
     color: #404BBF;
 }
 
-.section-hero {
+.section-1 {
     background-color: #2e2f42;
 }
 
@@ -104,7 +105,7 @@ button {
 }
 
 .button-order:hover {
-    background-color:  #4d5ae5;
+    background-color:  #404BBF;
 }
 
 .feature-title {
@@ -114,6 +115,7 @@ button {
  line-height: 1.2;
  letter-spacing: 0.02em;
  color: #2e2f42;
+ text-align: center
 }
 
 .feature-text {
@@ -123,7 +125,7 @@ button {
  line-height: 1.5;
  letter-spacing: 0.02em;
  color: #434455;
-    
+ text-align: center
 }
 
 .our-team-section {
@@ -137,16 +139,17 @@ button {
  line-height: 1.11;
  letter-spacing: 0.02em;
  color: #2e2f42;
- text-transform: capitalize
+ text-align: center
+ 
 }
 
-.section-title-team {
+.section-title-3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    
+    text-align: center
 }
 
 .our-team-text {
@@ -156,10 +159,6 @@ button {
     letter-spacing: 0.02em;
     color: #434455;
     text-transform: capitalize
-}
-
-.portfolio-list {
-    background: #fff;
 }
 
 .text-portfolio {
@@ -177,7 +176,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-
+    text-align: center
 }
 
 .portfolio-category {
@@ -186,7 +185,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-
+    text-align: center
 }
 
 .footer-logo {
@@ -218,4 +217,5 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    text-transform: uppercase
 }
