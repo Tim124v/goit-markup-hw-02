@@ -84,7 +84,7 @@ button {
     color: #404BBF;
 }
 
-.section-1 {
+.section-one {
     background-color: #2e2f42;
 }
 
@@ -95,7 +95,6 @@ button {
    line-height: 1.07;
    letter-spacing: 0.02em;
    color: #fff;
-    text-align: center
 }
 
 
@@ -140,13 +139,12 @@ button {
  text-transform: capitalize
 }
 
-.section-title-3 {
+.section-title-three {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    text-align: center
 }
 
 .our-team-text {
@@ -173,7 +171,6 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    text-align: center
 }
 
 .portfolio-category {
@@ -182,7 +179,6 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    text-align: center
 }
 
 .footer-logo {
