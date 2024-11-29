@@ -84,7 +84,7 @@ button {
     color: #404BBF;
 }
 
-.section-one {
+.section-servis {
     background-color: #2e2f42;
 }
 
@@ -95,16 +95,16 @@ button {
    line-height: 1.07;
    letter-spacing: 0.02em;
    color: #fff;
+    text-align: center
 }
 
 
-.button-order:focus {
-    background-color: #404BBF
+.button-order:focus,:hover {
+    background-color: #4d5ae5
 }
 
-.button-order:hover {
-    background-color:  #404BBF;
-}
+
+
 
 .feature-title {
  font-family: "Roboto", sans-serif;
@@ -132,19 +132,16 @@ button {
 .section-team {
  font-family: "Roboto", sans-serif;
  font-weight: 700;
- font-size: 36px;
- line-height: 1.11;
- letter-spacing: 0.02em;
- color: #2e2f42;
- text-transform: capitalize
+ 
 }
 
-.section-title-three {
+.section-title-two {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center
 }
 
 .our-team-text {
@@ -171,6 +168,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center
 }
 
 .portfolio-category {
@@ -179,6 +177,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center
 }
 
 .footer-logo {
