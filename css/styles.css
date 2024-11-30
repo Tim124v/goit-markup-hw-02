@@ -137,13 +137,19 @@ ul {
     background-color: #f4f4fd;
 }
 
-.our-team-list {
+
+.our-team-list{
     background-color: #FFFFFF;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    color: #2e2f42;
     text-transform: capitalize;
 }
+
+.our-team-list li {
+    background-color: #FFFFFF;
 }
 
 .section-title-three {
