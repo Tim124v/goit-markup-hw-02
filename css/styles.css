@@ -16,11 +16,6 @@ body {
     letter-spacing: 0.03em;
 }
 
-.headr-part .header-logo {
- color: #2e2f42;
-}
-
-
 .nav-web {
     color: #2E2F42;  
 }
@@ -35,13 +30,21 @@ ul {
 
 
 .nav-link {
-    color: #2e2f42;
+    color: #2E2F42;
     list-style-type: none;
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em
+}
+
+.nav-link:focus {
+    color: #404BBF;
+}
+
+.nav-link:hover {
+    color: #404BBF;
 }
 
 .nav-link:active {
@@ -52,18 +55,23 @@ ul {
     font-style: normal;
 }
 
-.contact-link  {
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+.contacts-address a {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    list-style-type: none;
+    text-decoration: none;
 }
 
-.contact-link:hover,
-.contact-link:focus
-.nav-link:hover,
-.nav-link:focus {
- color: #404BBF;
+.contact-link:focus {
+    color: #404bbf
+}
+
+.contact-link:hover {
+    color: #404BBF;
 }
 
 .section-one {
@@ -71,7 +79,7 @@ color: #434455;
 }
 
 .section-title {
-    font-weight: 700;
+   font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -95,7 +103,6 @@ color: #434455;
     margin-right: auto;
     border: none;
 }
-
 
 .btn-order:hover,
 .btn-order:focus {
