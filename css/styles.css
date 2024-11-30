@@ -16,6 +16,11 @@ body {
     letter-spacing: 0.03em;
 }
 
+.logo-page .logo-part {
+    color: #2e2f42;
+}
+
+
 .nav-web {
     color: #2E2F42;  
 }
@@ -142,6 +147,16 @@ ul {
 
 .our-team-section {
     background-color: #f4f4fd;
+}
+
+.section-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+    text-transform: capitalize
 }
 
 .our-team-list li {
