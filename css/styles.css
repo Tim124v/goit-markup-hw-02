@@ -115,7 +115,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   display: flex;
-    gap: 40px;
+  gap: 40px;
 }
 
 .nav-link:hover,
@@ -215,13 +215,13 @@ img {
     border-radius: 0 0 4px 4px;
 }
 
-.feature-item {
+.our-team-item {
   margin-right: 24px;
   width: calc((100% - 72px) / 4);
 }
 
 .section-title-two {
-    padding: 120px 0 120px;
+  padding: 120px 0 120px;
 }
 
 .section-team {
