@@ -274,6 +274,14 @@ img {
   padding-bottom: 120px;
 }
 
+.section-portfolio {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+}
+
 .text-portfolio {
   font-size: 36px;
   line-height: 1.11;
@@ -396,12 +404,4 @@ img {
 
 .dscr {
  padding: 32px 0 32px;
-}
-
-.div-name {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-  margin-bottom: 8px;
-  box-sizing: border-box;
 }
