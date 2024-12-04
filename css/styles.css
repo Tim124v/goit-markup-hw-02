@@ -43,7 +43,7 @@ img {
 
 .nav-list li,
 .contacts-ul li {
-    padding: 24px 0;
+  padding: 24px 0;
 }
 
 .header-logo {
@@ -59,14 +59,14 @@ img {
 }
 
 .address-logo {
-    font-style: normal;
+  font-style: normal;
 }
 
 .address-list {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455; 
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455; 
 }
 
 .header-container {
@@ -117,22 +117,26 @@ img {
 }
 
 .nav-link:hover,
-.nav-link:focus,
+.nav-link:focus {
+  color: #404bbf;
+}
+
 .contacts-ul li a:hover,
 .contacts-ul li a:focus {
  color: #404bbf;
 }
 
 .feature-ul {
+  text-align: left;
   display: flex;
-  margin-bottom: 0;
-  margin-top: 0;
+  gap: 24px;
 }
 
-.feature-ul .feature-item {
-  margin-right: 24px;
-  width: calc((100% - 72px) / 4);
+.feature-item {
+  width: calc((100% - 3 * 24px) / 4)
 }
+
+
 .feature-ul li:last-child {
   margin-right: 0;
 }
@@ -268,9 +272,6 @@ img {
   margin-bottom: 0;
 }
 
-/* .portfolio-list .portfolio-item { */
- /* width: calc((100% - 48p x) / 3); */
-}
 
 .portfolio-list li {
     margin-bottom: 48px;
@@ -387,4 +388,15 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+}
+
+.div-math {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+
+.header-container{
+  display: flex;
 }
