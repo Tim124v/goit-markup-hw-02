@@ -7,7 +7,7 @@ body {
 }
 
 a {
-text-decoration: none;
+ text-decoration: none;
 }
 
 ul {
@@ -16,19 +16,19 @@ ul {
 }
 
 li {
-    padding-left: 0;
-    margin: 0;
+  padding-left: 0;
+  margin: 0;
 }
 
 h1,
 h2,
 h3,
 p {
-    margin: 0;
+  margin: 0;
 }
 
 img {
-   display: block; 
+  display: block; 
 }
  
 .head {
@@ -385,9 +385,7 @@ img {
 }
 
 .dscr {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
+  padding: 32px 0 32px;
 }
 
 .div-math {
