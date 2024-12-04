@@ -215,7 +215,7 @@ img {
     border-radius: 0 0 4px 4px;
 }
 
-.our-team-item {
+.feature-item {
   margin-right: 24px;
   width: calc((100% - 72px) / 4);
 }
@@ -390,7 +390,9 @@ img {
   padding: 32px 0 32px;
 }
 
-.div-math {
+.div-name {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
 }
